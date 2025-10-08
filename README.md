@@ -5,17 +5,21 @@ How to change xampp php version.
 
 Download https://downloads.php.net/~windows/releases/archives/php-8.4.13-Win32-vs17-x64.zip and unzip.
 
-## Overweite xampp php
+## Overwrite xampp php
 
-Simple method, just overwrite files in **/xampp/php**. Long method unzip to **php** directory on disk **C**
+Simple method, just overwrite files in **/xampp/php**.
 
-## Change Xampp settings
+## Second way
+
+Unzip to **php** directory on disk **C**.
+
+## Change xampp settings
 
 Go to **https-xampp.conf** and change all paths from **/xampp/php** to **/php** or **/your/php/location**.
 
 ## Env variables
 
-Add env variables path in windows.
+Run command, press **ALT + R** and type **sysdm.cpl** and click OK. Add in windows env variables **path** line with. 
 
 ```sh
 C:/php
@@ -49,4 +53,11 @@ extension=sockets
 extension=sqlite3
 extension=zip
 zend_extension=opcache
+```
+
+## Check in cmd
+
+```sh
+php -v
+php -m
 ```
