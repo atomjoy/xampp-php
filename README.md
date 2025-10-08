@@ -61,3 +61,18 @@ zend_extension=opcache
 php -v
 php -m
 ```
+
+### Add in xampp
+C:\xampp\htdocs\index.php
+
+```
+<?php
+  phpinfo();
+  die();
+?>
+```
+
+
+### Check php version in browser
+
+http://localhost
