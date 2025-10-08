@@ -19,11 +19,14 @@ Go to **https-xampp.conf** and change all paths from **/xampp/php** to **/php**.
 
 ### Windows 10 environment variables
 
-Run command, press **ALT + R** and type **sysdm.cpl** and click OK. See in advanced tab environment variables and add in **Path** line with (Remove C:/xampp/php from environment variables): 
+Run command, press **ALT + R** and type **sysdm.cpl** and click OK. See in advanced tab environment variables and add in **Path**. 
 
 ```sh
+# Change C:/xampp/php to C:/php or remove from environment variables and add new line:
+
 C:/php
 ```
+
 
 ### Create php.ini
 
