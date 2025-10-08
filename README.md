@@ -15,7 +15,7 @@ Unzip to **php** directory on disk **C**.
 
 ### Change xampp settings
 
-Go to **https-xampp.conf** and change all paths from **/xampp/php** to **/php** or **/your/php/location**.
+Go to **https-xampp.conf** and change all paths from **/xampp/php** to **/php**.
 
 ### Windows 10 environment variables
 
@@ -27,7 +27,7 @@ C:/php
 
 ### Create php.ini
 
-Copy from **php.ini-development** and add in php.ini file path to extensions directory (if you want to place php in different location).
+Copy from **php.ini-development** and add in **php.ini** file path to extensions directory (if you want to place php in different location).
 
 ```sh
 [PHP]
