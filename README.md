@@ -13,11 +13,11 @@ Just overwrite files in **/xampp/php** directory.
 
 Unzip to **php** directory on disk **C**.
 
-## Change xampp settings
+### Change xampp settings
 
 Go to **https-xampp.conf** and change all paths from **/xampp/php** to **/php** or **/your/php/location**.
 
-## Windows 10 environment variables
+### Windows 10 environment variables
 
 Run command, press **ALT + R** and type **sysdm.cpl** and click OK. Add in windows env variables **path** line with. 
 
@@ -25,7 +25,7 @@ Run command, press **ALT + R** and type **sysdm.cpl** and click OK. Add in windo
 C:/php
 ```
 
-## Create php.ini
+### Create php.ini
 
 Copy from **php.ini-development** and add in php.ini file path to extensions directory (if you want to place php in different location).
 
@@ -55,7 +55,7 @@ extension=zip
 zend_extension=opcache
 ```
 
-## Check in cmd
+### Check in cmd
 
 ```sh
 php -v
