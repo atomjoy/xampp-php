@@ -39,7 +39,6 @@ Copy from **php.ini-development** and add in **php.ini** file path to extensions
 extension_dir="./ext"
 
 # Unhash extensions
-
 extension=bz2
 extension=curl
 extension=ftp
