@@ -17,7 +17,7 @@ Unzip to **php** directory on disk **C**.
 
 Go to **https-xampp.conf** and change all paths from **/xampp/php** to **/php** or **/your/php/location**.
 
-## Env variables
+## Windows 10 environment variables
 
 Run command, press **ALT + R** and type **sysdm.cpl** and click OK. Add in windows env variables **path** line with. 
 
