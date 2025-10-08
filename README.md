@@ -1,9 +1,9 @@
-# Xampp php 8.4
-How to change xampp php version.
+# Change Xampp Php Version
+How to change xampp php version to 8.4.
 
 ## Download php
 
-Download https://downloads.php.net/~windows/releases/archives/php-8.4.13-Win32-vs17-x64.zip and unzip.
+Download https://downloads.php.net/~windows/releases/archives/php-8.4.13-Win32-vs17-x64.zip and unzip (https://www.php.net/downloads.php).
 
 ## Overwrite xampp php
 
