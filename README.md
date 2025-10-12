@@ -27,6 +27,9 @@ Run command, press **ALT + R** and type **sysdm.cpl** and click OK. See in advan
 C:/php
 ```
 
+### CA Certs (curl, openssl)
+
+Download https://curl.se/ca/cacert.pem and place to C:/php directory and add path to this file in php.ini **curl.cainfo** and **opessl.cafile** for Http client in php, laravel.
 
 ### Create php.ini
 
@@ -37,6 +40,10 @@ Copy from **php.ini-development** and add in **php.ini** file path to extensions
 
 # Php extension directory
 extension_dir="./ext"
+
+# Settings
+post_max_size = 500M
+upload_max_filesize = 100M
 
 # Unhash extensions
 extension=bz2
@@ -55,6 +62,18 @@ extension=sockets
 extension=sqlite3
 extension=zip
 zend_extension=opcache
+
+[Session]
+session.cookie_secure = Off
+session.cookie_httponly = On
+session.cookie_lifetime = 86400
+session.gc_maxlifetime = 1440
+
+[curl]
+curl.cainfo = "C:\php\cacert.pem"
+
+[openssl]
+openssl.cafile="C:\php\cacert.pem"
 ```
 
 ### Check in cmd
